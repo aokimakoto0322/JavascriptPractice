@@ -1,0 +1,9 @@
+#image01{
+    background-image: url(image.png);
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
