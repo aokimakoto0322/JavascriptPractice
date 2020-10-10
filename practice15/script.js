@@ -58,8 +58,7 @@ function countStart2(){
 
         let label = `残り${remainsec}秒`;
 
-        
-
+    
 
         //残り０秒になったらsetIntervalを止める
         if(remainsec <= 0){
