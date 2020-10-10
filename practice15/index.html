@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <link href="style.css" rel="stylesheet">
+        <title>カウントダウン</title>
+    </head>
+
+    <body>
+        <button type="button" id="start">カウントダウンスタート</button>
+        <p id="last"></p>
+
+        <h2>期待値</h2>
+        <p>１０からスタートして、１秒ごとにカウントダウン、０になったら「終了」と出す</p>
+
+        <h2>結果</h2>
+        <p>「カウントダウンスタート」を押した際、１０からカウントダウンをしたいのに、９から始まったり、５から始まったりする</p>
+
+        <h2>考察</h2>
+        <p>スクリプトがスタートした際に最初の時刻を取得するので、「カウントダウンスタート」を押すのにもたもた
+            すると、その分差分が増えてしまう。
+            ２秒もたつくと、８秒からスタートしてしまう。
+        </p>
+
+        <h2>改善策</h2>
+        <p>ボタンを押した時に現在の時刻を取得する</p>
+        
+
+        <h1>改善後のスクリプト</h1>
+        <button type="button" id="start2">カウントダウンスタート</button>
+        <p id="last2"></p>
+
+    </body>
+
+    <script type="text/javascript" src="script.js"></script>
+</html>
