@@ -1,0 +1,16 @@
+html, body, p{
+    height: 100%;
+}
+
+#baloon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#baloon.on{
+    opacity: 1;
+    display: block;
+
+}
