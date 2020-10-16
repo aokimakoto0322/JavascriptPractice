@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <style>
+        #image{
+            filter: grayscale(0%);
+            transition: all 300ms;
+        }
+        #image.state-show{
+            filter: grayscale(100%);
+        }
+    </style>
+    <title>アニメーション</title>
+</head>
+<body>
+    <img src="photo.jpg" id="image">
+    <label><input type="checkbox" id="check">トランジションを確認する</label>
+    <p>クラスを追加することによって画像の彩度を調整する</p>
+</body>
+</html>
